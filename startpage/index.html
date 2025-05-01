@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>~/startpage 🏠</title>
+    <meta name="darkreader-lock" />
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/NixOS/nixos-artwork/refs/heads/master/logo/nix-snowflake-white.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../src/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="kunzooz">
+    <div id="image" onclick="nextImage(currentIndex)">
+      <img id="carouselImage" src="../src/images/cover2.webp" />
+      <script async src="../src/js/theme.js" currentIndex="1"></script>
+    </div>
+    <div id="text">
+      <div id="greeting">Welcome back!</div>
+      <div id="date"></div>
+      <script async src="../src/js/date.js"></script>
+      <div id="links">
+        <div class="urls">
+          <div class="header">~/general ◈</div>
+          <ul>
+            <li><a href="https://k12.instructure.com/calendar#view_name=agenda">Canvas</a></li>
+            <li><a href="https://papercut-nu.vercel.app/">Papercut</a></li>
+            <li><a href="https://m.youtube.com/">YouTube</a></li>
+            <li><a href="https://discord.com">Discord</a></li>
+          </ul>
+        </div>
+        <div class="urls">
+          <div class="header">~/tech </div>
+          <ul>
+            <li><a href="https://modrinth.com/">Modrinth</a></li>
+            <li>
+              <a href="https://vanillatweaks.net/picker/resource-packs/"
+                >Vanilla Tweaks</a
+              >
+            </li>
+            <li>
+              <a href="https://adoptium.net/en-GB/temurin/releases/?version=19"
+                >Adoptium</a
+              >
+            </li>
+            <li><a href="https://github.com/">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
